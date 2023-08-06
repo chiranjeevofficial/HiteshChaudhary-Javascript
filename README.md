@@ -11,7 +11,8 @@ Playlist Link [Chai aur Javascript](https://www.youtube.com/playlist?list=PLu71S
  - Node.js 
 
 ## After Installation
-    Run Command on Terminal
+Run Command on Terminal
+
     ```
     node -v
     ```
