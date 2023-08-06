@@ -13,6 +13,4 @@ Playlist Link [Chai aur Javascript](https://www.youtube.com/playlist?list=PLu71S
 ## After Installation
 Run Command on Terminal
 
-    ```
     node -v
-    ```
