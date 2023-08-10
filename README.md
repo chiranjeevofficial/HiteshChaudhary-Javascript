@@ -14,3 +14,8 @@ Playlist Link [Chai aur Javascript](https://www.youtube.com/playlist?list=PLu71S
 Run Command on Terminal
 
     node -v
+
+## Lesson 02 - Variable
+
+- Javascript used to the problem, its don't know the what is scope.
+- {}, its scope
