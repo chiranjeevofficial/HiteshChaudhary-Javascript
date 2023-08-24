@@ -79,21 +79,47 @@
 //     console.log(item, index, arr);
 // })
 
-let coding = [
-    {
-        name: "Java",
-        fileName: "java"
-    },
-    {
-        name: "JavaScript",
-        fileName: "js"
-    },
-    {
-        name: "Python",
-        fileName: "py"
-    },
-]
+// let coding = [
+    // {
+        // name: "Java",
+        // fileName: "java"
+    // },
+    // {
+        // name: "JavaScript",
+        // fileName: "js"
+    // },
+    // {
+        // name: "Python",
+        // fileName: "py"
+    // },
+// ]
+// 
+// coding.forEach( (item) => {
+    // // console.log(`${item.name} extension is .${item.fileName}`);
+// });
 
-coding.forEach( (item) => {
-    console.log(`${item.name} extension is .${item.fileName}`);
+// ============== Filter, Maps and reduce ============== 
+
+// let coding = ["js", "ruby", "python", "java"];
+// const value = coding.forEach( (item) => {
+//     // console.log(item)
+//     return item;
+// });
+// console.log(value);
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// // const newNum = myNums.filter( (num) => num > 4);
+// const newNum = myNums.filter( (num) => {
+//     return num > 4;
+// });
+// console.log(newNum);
+
+const newNum = [];
+myNums.forEach( (num) => {
+    if (num > 4)
+    newNum.push(num)
 })
+
+console.log(newNum);
+
+// <------------- uncomplete lecture ------------->
